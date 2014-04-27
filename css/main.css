@@ -1,0 +1,166 @@
+/* Font face */
+
+@font-face
+{
+	font-family: AkzidenzGrotesk-LC;
+	src: url("fonts/AkzidenzGrotesk-LightCond.otf");
+}
+
+@font-face
+{
+	font-family: AkzidenzGrotesk-BC;
+	src: url("fonts/AkzidenzGrotesk-BoldCond.otf");	
+}
+
+
+
+/* General styles
+-------------------------------------------------- */
+body {
+	font-family: Arial;
+	font-size: 1.4em;
+	height: 100%;
+	width: 100%;
+	margin-bottom: 60px;
+	background-color: #EEE;
+}
+
+li {
+	list-style-type: none;
+}
+
+hr {
+	border-top: 1px solid #FFF;
+}
+
+a,
+a:hover {
+	text-decoration: none;
+}
+
+.navbar {
+	position: relative;
+	min-height: 130px;
+	margin-bottom: 0px;
+	border: 1px solid transparent;
+	background: #1e5799; /* Old browsers */
+	background: -moz-linear-gradient(top, #5FA3A2 0%, #B1D8D8 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#5FA3A2), color-stop(100%,#B1D8D8)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #5FA3A2 0%,#B1D8D8 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #5FA3A2 0%,#B1D8D8 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #5FA3A2 0%,#B1D8D8 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #5FA3A2 0%,#B1D8D8 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5FA3A2', endColorstr='#B1D8D8',GradientType=0 ); /* IE6-9 */
+}
+
+div#mainNav {
+	color: #FFF;
+	margin-top: 20px;
+}
+
+div#mainNav p {
+	margin: 0;
+	text-transform: uppercase;
+	font-family: AkzidenzGrotesk-LC;
+}
+
+div#mainNav p.logoName {
+	font-size: 40px;
+	margin-bottom: -15px;
+}
+
+div#mainNav p.logoSurname {
+	font-size: 30px;
+	font-family: AkzidenzGrotesk-BC;
+	margin-bottom: -5px;
+}
+
+div#mainNav p.logoSpecialty {
+	font-size: 14px;
+	font-family: Arial;
+	text-transform: none;
+}
+
+div#mainInformation {
+	margin: 0 auto;
+	margin-top: 90px;
+	width: 65%;
+}
+
+div#mainInformation div.lista > * {
+	display: inline-block;
+}
+
+div.lista span.conicetLogo,
+div.lista span.ubaLogo {
+	width: 170px;
+	height: 100px;
+}
+
+div.lista div.listaTexto {
+	width: 75%;
+	vertical-align: top;
+}
+
+span.conicetLogo {
+	background: url("img/conicet-logo.png") no-repeat;
+	background-size: 50%;
+}
+
+span.ubaLogo {
+	background: url("img/uba-logo.png") no-repeat;
+	background-size: 50%;
+}
+
+div#footer {
+	text-align: center;
+}
+
+div.menuBtn a {
+	background-color: #FFF;
+	height: 50px;
+	text-align: center;
+	border: 1px solid #CCC;
+	border-bottom: 2px solid #CCC;
+	margin-right: 3px;
+	display: block;
+	text-transform: uppercase;
+	color: #5DB2AD;
+	padding-top: 10px;
+	font-size: 12px;
+	width: 280px;
+}
+
+div.menuBtn {
+	margin-right: 5px;
+	bottom: 25px;
+}
+
+div.menuBtn.active {
+	bottom: 0;
+}
+
+div.menuBtn.last {
+	margin-right: 0;
+}
+
+div#menuContainer {
+	position: relative;
+}
+
+div#menuButton {
+	position: absolute;
+	width: 100%;
+}
+
+span.subTitleBox {
+	background-color: #5DB2AD;
+	width: 350px;
+	height: 30px;
+	display: block;
+	padding: 1px 0 0px 18px;
+	border-radius: 8px;
+	color: #FFF;
+	font-style: italic;
+	margin-bottom: 5px;
+}
