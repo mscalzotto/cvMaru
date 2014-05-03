@@ -1,41 +1,20 @@
+<?php include_once 'inc/htmlElements.php' ?>
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<title>María Eugenia Tabernero</title>
-		<meta charset="utf-8">
-		<meta keywords="psicologa, psicología, psicologia, conicet, memoria, neuropsicología, neuropsicologia">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<script src="js/jquery-latest.js"></script>
-		<script src="js/main.js"></script>
-		<link rel="stylesheet" type="text/css" href="css/normalize.css">
-		<link rel="stylesheet" type="text/css" href="css/main.css">
-	</head>
+<?php print htmlHead('María Eugenia Tabernero'); ?>
 	
 	<body>
-		<div class="navbar navbar-default navbar-fixed-top" role="navigation">
-			<div class="container">
-				<div id="mainNav" class="clearfix">
-					<div class="logoMaru">
-						<p class="logoName">M.Eugenia</p>
-						<p class="logoSurname">Tabernero</p>
-						<p class="logoSpecialty">psicoterapeuta</p>
-					</div>
-					<div class="iconoMail">
-						<a href="/contacto"></a>
-					</div>
-				</div>
-			</div>
-		</div>
-
+		<?php print htmlNav(); ?>
+		
 		<div id="menuButton">
 			<div class="menuBtn active">
-				<a href="#" class="linkNav">Currículum Vitae</a>
+				<a href="index.php" class="linkNav">Currículum Vitae</a>
 			</div>
 			<div class="menuBtn">
-				<a href="#" class="linkNav">Evaluación neuropsicológica</a>
+				<a href="neuro.php" class="linkNav">Evaluación neuropsicológica</a>
 			</div>
 			<div class="menuBtn last">
-				<a href="#" class="linkNav">Talleres de memoria y estimulación cognitiva</a>
+				<a href="talleres.php" class="linkNav">Talleres de memoria y estimulación cognitiva</a>
 			</div>
 		</div>
 

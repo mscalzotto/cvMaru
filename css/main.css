@@ -12,7 +12,19 @@
 	src: url("fonts/AkzidenzGrotesk-BoldCond.otf");	
 }
 
+@font-face
+{
+	font-family:  Socialico;
+	src: url("fonts/Socialico.otf");
+	src: url("fonts/Socialico.ttf");
+}
 
+@font-face
+{
+	font-family:  Socialico-Plus;
+	src: url("fonts/Socialico-Plus.otf");
+	src: url("fonts/Socialico-Plus.ttf");
+}
 
 /* General styles
 -------------------------------------------------- */
@@ -55,7 +67,8 @@ a:hover {
 }
 
 div#mainNav {
-	width: 1100px;
+	max-width: 1100px;
+	min-width: 400px;
 	margin: 0 auto;
 	color: #FFF;
 	margin-top: 20px;
@@ -90,13 +103,11 @@ div#mainNav p.logoSpecialty {
 	text-transform: none;
 }
 
-div#mainNav div.iconoMail {
-	background: url("img/mail_icon.png") no-repeat center;
-	width: 83px;
-	height: 83px;
-	background-size: 80%;
-	cursor: pointer;
-	margin-right: 25px;
+div#mainNav div.iconoMail a {
+	font-family: Socialico-Plus;
+	font-size: 80px;
+	color: #FFF;
+	margin-right: 30px;
 }
 
 div#mainInformation {
@@ -144,6 +155,8 @@ div.lista div.listaTexto p {
 	margin: 0;
 	margin-bottom: 5px;
 }
+
+p+p {margin-bottom: 12px;}
 
 div#footer {
 	text-align: center;
@@ -201,3 +214,64 @@ div#footer p {
 	font-size: 25px;
 	font-weight: bold;
 }
+
+/* Form */
+form#maruContacto {
+	max-width: 350px;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+
+form#maruContacto input,
+form#maruContacto textarea {
+	color: #88BEBD;
+	height: 50px;
+	border: 1px solid #CCC;
+	border-radius: 6px;
+	margin-bottom: 5px;
+	padding: 5px 15px;
+	width: 100%;
+}
+
+form#maruContacto textarea {
+	height: auto;
+}
+
+form#maruContacto input[type="button"] {
+	background-color: #88BEBD;
+	color: #FFF;
+	border: none;
+}
+
+form#maruContacto input[type="button"]:hover {
+	background-color: #88BEBD;
+	color: #FFF;
+}
+
+/* Form placeholders */
+form#maruContacto input::-webkit-input-placeholder { /* WebKit browsers */
+    color: #DDD;
+}
+form#maruContacto input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #DDD;
+}
+form#maruContacto input::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #DDD;
+}
+form#maruContacto input:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: #DDD;
+}
+
+form#maruContacto textarea::-webkit-input-placeholder { /* WebKit browsers */
+    color: #DDD;
+}
+form#maruContacto textarea:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #DDD;
+}
+form#maruContacto textarea::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #DDD;
+}
+form#maruContacto textarea:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: #DDD;
+}
+

@@ -8,7 +8,7 @@
 			if (!$(this).parent().hasClass('active')) {
 				$(this).parent().stop().animate({
 					bottom : 0
-				}, 800);
+				}, 200);
 			}
 		});
 
@@ -16,7 +16,7 @@
 			if (!$(this).parent().hasClass('active')) {
 				$(this).parent().stop().animate({
 					bottom : "25px"
-				}, 800);
+				}, 200);
 			}
 		});
 	}
