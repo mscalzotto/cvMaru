@@ -7,12 +7,6 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<script src="js/jquery-latest.js"></script>
 		<script src="js/main.js"></script>
-		<!-- Latest compiled and minified CSS -->
-		<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
-
-		<!-- Optional theme -->
-		<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
-
 		<link rel="stylesheet" type="text/css" href="css/normalize.css">
 		<link rel="stylesheet" type="text/css" href="css/main.css">
 	</head>
@@ -20,65 +14,72 @@
 	<body>
 		<div class="navbar navbar-default navbar-fixed-top" role="navigation">
 			<div class="container">
-				<div id="mainNav" class="row">
-					<div class="col-xs-12 col-md-8">
+				<div id="mainNav" class="clearfix">
+					<div class="logoMaru">
 						<p class="logoName">M.Eugenia</p>
 						<p class="logoSurname">Tabernero</p>
 						<p class="logoSpecialty">psicoterapeuta</p>
 					</div>
-					<div class="col-xs-12 col-md-2">
-						<a href="/contacto">icono mail</a>
+					<div class="iconoMail">
+						<a href="/contacto"></a>
 					</div>
-					<div class="col-xs-12 col-md-2"></div>
 				</div>
 			</div>
 		</div>
 
-		<div id="menuContainer">
-			<div id="menuButton" class="row">
-				<div class="col-xs-12 col-md-3"></div>
-				<div class="col-xs-12 col-md-2 menuBtn active">
-					<a href="#" class="linkNav">Currículum Vitae</a>
-				</div>
-				<div class="col-xs-12 col-md-2 menuBtn">
-					<a href="#" class="linkNav">Evaluación neuropsicológica</a>
-				</div>
-				<div class="col-xs-12 col-md-2 menuBtn last">
-					<a href="#" class="linkNav">Talleres de memoria y estimulación cognitiva</a>
-				</div>
-				<div class="col-xs-12 col-md-3"></div>
+		<div id="menuButton">
+			<div class="menuBtn active">
+				<a href="#" class="linkNav">Currículum Vitae</a>
+			</div>
+			<div class="menuBtn">
+				<a href="#" class="linkNav">Evaluación neuropsicológica</a>
+			</div>
+			<div class="menuBtn last">
+				<a href="#" class="linkNav">Talleres de memoria y estimulación cognitiva</a>
 			</div>
 		</div>
 
 		<div id="mainInformation">
-			<div class="lista">
-				<span class="conicetLogo"></span>
+			<div class="lista uba">
 				<div class="listaTexto">
-					<span class="subTitleBox"><h5>BECARIA DOCTORAL CONICET POR EL TEMA:</h5></span>
-					<p>Investigadora de apoyo en los proyectos UBACYT y CONICET: ‘Simulación motora y Cognición Social, su relación con los sistemas de neuronas en espejo. Estudio en pacientes con Demencia Frontotemporal’, y “Simulación mental en pacientes con Demencia Frontotemporal variante frontal”Investigadora de apoyo en los proyectos UBACYT y CONICET: ‘Simulación motora y Cognición Social, su relación con los sistemas de neuronas en espejo. Estudio en pacientes con Demencia Frontotemporal’, y “Simulación mental en pacientes con Demencia Frontotemporal variante frontal”v</p>
+					<span class="subTitleBox"><h5>Títulos obtenidos</h5></span>
+					<p>Doctora en Psicología</p>
+					<p>Lic. en Psicología UBA</p>
 				</div>
 			</div>
 			<hr>
-			<div class="lista">
-				<span class="conicetLogo"></span>
+			<div class="lista conicet">
 				<div class="listaTexto">
-					<span class="subTitleBox"><h5>INVESTIGADORA DE APOYO EN LOS PROYECTOS UBACYT Y CONICET:</h5></span>
-					<p>"Simulación mental en pacientes con Demencia Frontotemporal variante frontal"</p>
+					<span class="subTitleBox"><h5>Investigación</h5></span>
+					<p>Investigadora de apoyo en los proyectos UBACYT y CONICET: ‘Simulación motora y Cognición Social, su relación con los sistemas de neuronas en espejo. Estudio en pacientes con Demencia Frontotemporal’, y “Simulación mental en pacientes con Demencia Frontotemporal variante frontal”</p>
 				</div>
 			</div>
 			<hr>
-			<div class="lista">
-				<span class="ubaLogo"></span>
+			<div class="lista uba">
 				<div class="listaTexto">
-					<span class="subTitleBox"><h5>INVESTIGADORA DE APOYO EN LOS PROYECTOS UBACYT Y CONICET:</h5></span>
-					<p>"Simulación motora y Cognición Social, su relación con los sistemas de neuronas en espejo. Estudio en pacientes con Demencia Frontotemporal"</p>
+					<span class="subTitleBox"><h5>Docencia</h5></span>
+					<p>Ayudante de Primera de la materia Neuropsicología, Facultad de Psicología, UBA</p>
+				</div>
+			</div>
+			<hr>
+			<div class="lista peron">
+				<div class="listaTexto">
+					<span class="subTitleBox"><h5>Evaluaciones neurocognitivas</h5></span>
+					<p>Miembro del Laboratorio de Deterioro Cognitivo del Hospital Eva Perón (ex Castex) desde 2007</p>
+				</div>
+			</div>
+			<hr>
+			<div class="lista divan">
+				<div class="listaTexto">
+					<span class="subTitleBox"><h5>Consultas en privado</h5></span>
+					<p>Atención en consultorio particular a prepagas y obras sociales</p>
 				</div>
 			</div>
 			<hr>
 		</div>
 
 		<div id="footer" class="container">
-			<p>María Eugenia Tabernero :: Psicoterapeuta</p>
+			<p>María Eugenia Tabernero :: consultoriodememoria@gmail.com</p>
 		</div>
 
 

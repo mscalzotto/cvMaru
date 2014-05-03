@@ -40,7 +40,7 @@ a:hover {
 
 .navbar {
 	position: relative;
-	min-height: 130px;
+	min-height: 160px;
 	margin-bottom: 0px;
 	border: 1px solid transparent;
 	background: #1e5799; /* Old browsers */
@@ -51,11 +51,22 @@ a:hover {
 	background: -ms-linear-gradient(top,  #5FA3A2 0%,#B1D8D8 100%); /* IE10+ */
 	background: linear-gradient(to bottom,  #5FA3A2 0%,#B1D8D8 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5FA3A2', endColorstr='#B1D8D8',GradientType=0 ); /* IE6-9 */
+	z-index: 1;
 }
 
 div#mainNav {
+	width: 1100px;
+	margin: 0 auto;
 	color: #FFF;
 	margin-top: 20px;
+}
+
+div#mainNav div.logoMaru {
+	float: left;
+}
+
+div#mainNav div.iconoMail {
+	float: right;	
 }
 
 div#mainNav p {
@@ -65,14 +76,12 @@ div#mainNav p {
 }
 
 div#mainNav p.logoName {
-	font-size: 40px;
-	margin-bottom: -15px;
+	font-size: 50px;
 }
 
 div#mainNav p.logoSurname {
-	font-size: 30px;
+	font-size: 37px;
 	font-family: AkzidenzGrotesk-BC;
-	margin-bottom: -5px;
 }
 
 div#mainNav p.logoSpecialty {
@@ -81,39 +90,68 @@ div#mainNav p.logoSpecialty {
 	text-transform: none;
 }
 
+div#mainNav div.iconoMail {
+	background: url("img/mail_icon.png") no-repeat center;
+	width: 83px;
+	height: 83px;
+	background-size: 80%;
+	cursor: pointer;
+	margin-right: 25px;
+}
+
 div#mainInformation {
 	margin: 0 auto;
 	margin-top: 90px;
 	width: 65%;
 }
 
+div#menuButton {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
 div#mainInformation div.lista > * {
 	display: inline-block;
 }
 
-div.lista span.conicetLogo,
-div.lista span.ubaLogo {
-	width: 170px;
-	height: 100px;
+div.lista {
+	padding-left: 120px;
 }
 
-div.lista div.listaTexto {
-	width: 75%;
-	vertical-align: top;
+div.lista.conicet {
+	background: url("img/conicet-logo.png") no-repeat left center;
+	background-size: 7%;
 }
 
-span.conicetLogo {
-	background: url("img/conicet-logo.png") no-repeat;
-	background-size: 50%;
+div.lista.uba {
+	background: url("img/uba-logo.png") no-repeat left center;
+	background-size: 7%;
 }
 
-span.ubaLogo {
-	background: url("img/uba-logo.png") no-repeat;
-	background-size: 50%;
+div.lista.divan {
+	background: url("img/divan-icon.png") no-repeat left center;
+	background-size: 7%;
+}
+
+div.lista.peron {
+	background: url("img/evaPeron-logo.png") no-repeat left center;
+	background-size: 6%;
+}
+
+div.lista div.listaTexto p {
+	font-size: 18px;
+	margin: 0;
+	margin-bottom: 5px;
 }
 
 div#footer {
 	text-align: center;
+}
+
+div#menuButton {
+	width: 1100px;
+	margin: 0 auto;
 }
 
 div.menuBtn a {
@@ -122,18 +160,20 @@ div.menuBtn a {
 	text-align: center;
 	border: 1px solid #CCC;
 	border-bottom: 2px solid #CCC;
-	margin-right: 3px;
 	display: block;
 	text-transform: uppercase;
 	color: #5DB2AD;
 	padding-top: 10px;
 	font-size: 12px;
-	width: 280px;
+	width: 100%;
 }
 
 div.menuBtn {
-	margin-right: 5px;
+	position: relative;
+	width: 32%;
 	bottom: 25px;
+	padding: 0;
+	display: inline-block;
 }
 
 div.menuBtn.active {
@@ -144,23 +184,20 @@ div.menuBtn.last {
 	margin-right: 0;
 }
 
-div#menuContainer {
-	position: relative;
-}
-
-div#menuButton {
-	position: absolute;
-	width: 100%;
-}
-
-span.subTitleBox {
+span.subTitleBox h5 {
+	display: inline-block;
 	background-color: #5DB2AD;
-	width: 350px;
-	height: 30px;
-	display: block;
-	padding: 1px 0 0px 18px;
-	border-radius: 8px;
+	padding: 10px;
+	border-radius: 6px;
 	color: #FFF;
 	font-style: italic;
-	margin-bottom: 5px;
+	text-transform: uppercase;
+	font-size: 0.6em;
+}
+
+div#footer p {
+	text-transform: uppercase;
+	font-family: AkzidenzGrotesk-LC;
+	font-size: 25px;
+	font-weight: bold;
 }
