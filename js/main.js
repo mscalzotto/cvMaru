@@ -1,6 +1,7 @@
 (function($) {
 	$(document).ready(function() {
 		animatedHover();
+		sendAjaxEmail();
 	});
 
 	function animatedHover() {
@@ -8,7 +9,7 @@
 			if (!$(this).parent().hasClass('active')) {
 				$(this).parent().stop().animate({
 					bottom : 0
-				}, 200);
+				}, 300);
 			}
 		});
 
@@ -16,8 +17,28 @@
 			if (!$(this).parent().hasClass('active')) {
 				$(this).parent().stop().animate({
 					bottom : "25px"
-				}, 200);
+				}, 300);
 			}
+		});
+	}
+
+	function sendAjaxEmail() {
+		$('form#maruContacto').submit(function(e) {
+			var postData = $(this).serializeArray();
+    		var formURL = $(this).attr("action");
+			$.ajax({
+				url: "../mail.php",
+				type: "POST",
+				data: postData,
+				success: function(data, textStatus, jqXHR) {
+					alert('data: ' + data);
+				},
+				error: function(jqXHR, textStatus, errorThrown) {
+					alert('error: ' + errorThrown);
+				}
+			});
+			e.preventDefault();
+		    e.unbind();
 		});
 	}
 

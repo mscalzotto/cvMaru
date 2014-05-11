@@ -132,22 +132,22 @@ div.lista {
 
 div.lista.conicet {
 	background: url("img/conicet-logo.png") no-repeat left center;
-	background-size: 7%;
+	background-size: 9%;
 }
 
 div.lista.uba {
 	background: url("img/uba-logo.png") no-repeat left center;
-	background-size: 7%;
+	background-size: 9%;
 }
 
 div.lista.divan {
 	background: url("img/divan-icon.png") no-repeat left center;
-	background-size: 7%;
+	background-size: 9%;
 }
 
 div.lista.peron {
 	background: url("img/evaPeron-logo.png") no-repeat left center;
-	background-size: 6%;
+	background-size: 8%;
 }
 
 div.lista div.listaTexto p {
@@ -177,8 +177,9 @@ div.menuBtn a {
 	text-transform: uppercase;
 	color: #5DB2AD;
 	padding-top: 10px;
-	font-size: 12px;
+	font-size: 20px;
 	width: 100%;
+	font-family: AkzidenzGrotesk-LC;
 }
 
 div.menuBtn {
@@ -217,7 +218,7 @@ div#footer p {
 
 /* Form */
 form#maruContacto {
-	max-width: 350px;
+	max-width: 450px;
 	margin: 0 auto;
 	margin-top: 50px;
 }
@@ -230,17 +231,19 @@ form#maruContacto textarea {
 	border-radius: 6px;
 	margin-bottom: 5px;
 	padding: 5px 15px;
-	width: 100%;
+	width: 84%;
 }
 
 form#maruContacto textarea {
 	height: auto;
+	resize: none;
 }
 
 form#maruContacto input[type="button"] {
 	background-color: #88BEBD;
 	color: #FFF;
 	border: none;
+	width: 91%;
 }
 
 form#maruContacto input[type="button"]:hover {
@@ -250,28 +253,28 @@ form#maruContacto input[type="button"]:hover {
 
 /* Form placeholders */
 form#maruContacto input::-webkit-input-placeholder { /* WebKit browsers */
-    color: #DDD;
+    color: #CCC;
 }
 form#maruContacto input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-    color: #DDD;
+    color: #CCC;
 }
 form#maruContacto input::-moz-placeholder { /* Mozilla Firefox 19+ */
-    color: #DDD;
+    color: #CCC;
 }
 form#maruContacto input:-ms-input-placeholder { /* Internet Explorer 10+ */
-    color: #DDD;
+    color: #CCC;
 }
 
 form#maruContacto textarea::-webkit-input-placeholder { /* WebKit browsers */
-    color: #DDD;
+    color: #CCC;
 }
 form#maruContacto textarea:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-    color: #DDD;
+    color: #CCC;
 }
 form#maruContacto textarea::-moz-placeholder { /* Mozilla Firefox 19+ */
-    color: #DDD;
+    color: #CCC;
 }
 form#maruContacto textarea:-ms-input-placeholder { /* Internet Explorer 10+ */
-    color: #DDD;
+    color: #CCC;
 }
 
