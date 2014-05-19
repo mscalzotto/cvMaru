@@ -47,19 +47,20 @@
 
 	function validateForm() {
 		var form = $('form#maruContacto input');
-		var field = getFormFields(form);
+		var formFields = getFormFields(form);
 		var mensaje = {};
 
-		console.log(field);
-
-		$(field).each(function(index, field) {
-			console.log(index)
-			console.log(field[index]);
-			/*if (field[index].value == '') {
-				mensaje[index] = 'El campo ' + field[index].name + ' no puede estar vacío.';
-			}*/
+		$.each(formFields, function(index, field) {
+		
+			if (field.value == '') {
+				mensaje[index] = 'El campo ' + field.name + ' no puede estar vacío.';
+				mensaje.isFormValid = false;
+				$(field).css('border', '1px solid red');
+			}
+			else {
+				mensaje.isFormValid = true;
+			}
 		});
-			
 	}
 
 	function sendAjaxEmail() {
