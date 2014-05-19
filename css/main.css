@@ -113,7 +113,8 @@ div#mainNav div.iconoMail a {
 div#mainInformation {
 	margin: 0 auto;
 	margin-top: 90px;
-	width: 65%;
+	max-width: 65%;
+	min-width: 500px;
 }
 
 div#menuButton {
@@ -239,14 +240,16 @@ form#maruContacto textarea {
 	resize: none;
 }
 
-form#maruContacto input[type="button"] {
+form#maruContacto button {
 	background-color: #88BEBD;
 	color: #FFF;
 	border: none;
+	border-radius: 6px;
 	width: 91%;
+	height: 50px;
 }
 
-form#maruContacto input[type="button"]:hover {
+form#maruContacto button:hover {
 	background-color: #88BEBD;
 	color: #FFF;
 }

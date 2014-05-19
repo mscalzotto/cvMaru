@@ -23,7 +23,7 @@
 			<input type="text" name="apellido" placeholder="Apellido" id="campoApellido" />
 			<input type="email" name="mail" placeholder="Correo electrónico" id="campoMail" />
 			<textarea name="consulta" rows="4" cols="50" placeholder="Ingrese su consulta" id="campoConsulta"></textarea>
-			<input type="submit" value="Enviar" />
+			<button type="submit">Enviar</button>
 		</form>
 
 		<div id="footer" class="container">
