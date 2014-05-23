@@ -235,6 +235,18 @@ form#maruContacto textarea {
 	width: 84%;
 }
 
+/* error */
+form input.error {
+	border: 1px solid red !important;
+}
+
+div.errorMessage {
+	font-size: 0.7em;
+	text-align: center;
+	width: 84%;
+	color: red;
+}
+
 form#maruContacto textarea {
 	height: auto;
 	resize: none;
@@ -253,6 +265,7 @@ form#maruContacto button:hover {
 	background-color: #88BEBD;
 	color: #FFF;
 }
+
 
 /* Form placeholders */
 form#maruContacto input::-webkit-input-placeholder { /* WebKit browsers */
