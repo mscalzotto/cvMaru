@@ -7,16 +7,16 @@
 	function sendContactForm() {
 		var isFormValid;
 		
-		$('form#maruContacto button').click(function(e) {
+		$('form#maruContacto button').click(function() {
 			isFormValid = validateForm();
-			//console.log(isFormValid);
-			if (!isFormValid) {
+			
+			if (isFormValid) {
 				sendAjaxEmail();
 			}
 			else {
 				return false;
 			}
-			e.preventDefault();
+			
 		});
 
 	}
@@ -67,6 +67,7 @@
 		var textRegex = new RegExp('^[A-Za-z\\s]{1,40}$');
 		var emailRegex = new RegExp('^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,4})$');
 		
+		mensaje.isFormValid = true;
 		$.each(formFields, function(index, field) {
 			$('.errorMessage'+ index +'').remove();
 			$('body').append('<div class="errorMessage errorMessage' + index + '"></div>')
@@ -96,9 +97,6 @@
 					$('.errorMessage'+ index +'').html(mensaje[index]);
 				}
 			}
-			else {
-				mensaje.isFormValid = true;
-			}
 		});	
 
 		return mensaje.isFormValid;
@@ -108,8 +106,9 @@
 		$('form#maruContacto').submit(function(e) {
 			var postData = $(this).serializeArray();
     		var formURL = $(this).attr("action");
+			
 			$.ajax({
-				url: "../PHPMailer_5.2.0/mail.php",
+				url: "mail.php",
 				type: "POST",
 				data: postData,
 				success: function(data, textStatus, jqXHR) {
