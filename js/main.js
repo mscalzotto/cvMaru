@@ -55,7 +55,6 @@
 				$(this).parent().stop().animate({
 					bottom : "25px"
 				}, 300);
-				console.log('hola');
 			}
 		});
 	}
@@ -112,7 +111,7 @@
 				type: "POST",
 				data: postData,
 				success: function(data, textStatus, jqXHR) {
-					alert('data: ' + data);
+					console.log(data);
 				},
 				error: function(jqXHR, textStatus, errorThrown) {
 					alert('error: ' + errorThrown);

@@ -15,13 +15,13 @@ if ($mail == false) {
 	$error = '<div class="mailError">Ha ocurrido un problema con el envío del mail.<br>Por favor, intente nuevamente mas tarde';
 	$error .= '<a href="contacto.php" title="Volver al form">Volver al formulario</a>';
 	$error .= '</div>';
-	return $error;
+	return print $error;
 }
 else {
 	$mailSuccess = '<div class="mailSuccess">El correo se ha enviado con éxito!<br>En breve me pondré en contacto con usted.';
 	$mailSuccess .= '<a href="index.php" title="Volver al inicio">Volver al formulario</a>';
 	$mailSuccess .= '</div>';
 
-	return $mailSuccess;
+	return print $mailSuccess;
 	
 }
