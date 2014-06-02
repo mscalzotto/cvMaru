@@ -1,9 +1,9 @@
 <?php include_once 'inc/htmlElements.php' ?>
 <!DOCTYPE html>
 <html lang="en">
-<?php print htmlHead('María Eugenia Tabernero'); ?>
+<?php print htmlHead('Consultorio de memoria'); ?>
 	
-	<body>
+	<body id="cv">
 		<?php print htmlNav(); ?>
 		
 		<div id="menuButton">
@@ -50,7 +50,7 @@
 			<hr>
 			<div class="lista divan">
 				<div class="listaTexto">
-					<span class="subTitleBox"><h5>Consultas en privado</h5></span>
+					<span class="subTitleBox"><h5>Consultas</h5></span>
 					<p>Atención en consultorio particular a prepagas y obras sociales</p>
 				</div>
 			</div>

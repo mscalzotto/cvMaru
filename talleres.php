@@ -3,7 +3,7 @@
 <html lang="en">
 <?php print htmlHead('María Eugenia Tabernero'); ?>
 	
-	<body>
+	<body id="talleres">
 		<?php print htmlNav(); ?>
 		
 		<div id="menuButton">
@@ -29,7 +29,9 @@
 			<div class="lista conicet">
 				<div class="listaTexto">
 					<span class="subTitleBox"><h5>Estimulación cognitiva para pacientes con problemas de memoria</h5></span>
-					<p>Destinado a pacientes con diagnóstico de Alzheimer u otras demencias con el objetivo de potenciar los resultados del tratamiento médico. Actualmente, no existe ninguna intervención médica conocida que consiga detener o prevenir la aparición del deterioro asociado al Alzheimer. Si bien el tratamiento farmacológico produce mejoras en la memoria y en otros aspectos mentales, es fundamental que el paciente cuente con un espacio en el que se proponen actividades que apuntan mantener el desafío intelectual y brindar estrategias para compensar los problemas de memoria. Sesiones individuales a la medida de cada paciente.</p>
+					<p>Destinado a pacientes con diagnóstico de Alzheimer u otras demencias con el objetivo de potenciar los resultados del tratamiento médico.</p>
+					<p>Actualmente, no existe ninguna intervención médica conocida que consiga detener o prevenir la aparición del deterioro asociado al Alzheimer.</p>
+					<p>Si bien el tratamiento farmacológico produce mejoras en la memoria y en otros aspectos mentales, es fundamental que el paciente cuente con un espacio en el que se proponen actividades que apuntan mantener el desafío intelectual y brindar estrategias para compensar los problemas de memoria. Sesiones individuales a la medida de cada paciente.</p>
 				</div>
 			</div>
 			<hr>

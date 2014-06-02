@@ -3,7 +3,7 @@
 <html lang="en">
 <?php print htmlHead('María Eugenia Tabernero'); ?>
 	
-	<body>
+	<body id="neuro">
 		<?php print htmlNav(); ?>
 		
 		<div id="menuButton">
@@ -21,7 +21,8 @@
 		<div id="mainInformation">
 			<div class="lista uba">
 				<div class="listaTexto">
-					<p>La evaluación neuropsicológica (o estudio neurocognitivo) consiste en una serie de tests que se toman al paciente con el objetivo de corroborar si existen problemas o fallas en la memoria, la atención, el lenguaje o cualquier otra función.</p>
+					<span class="subTitleBox"><h5>Estudio Neurocognitivo</h5></span>
+					<p>Consiste en una serie de tests que se toman al paciente con el objetivo de corroborar si existen problemas o fallas en la memoria, la atención, el lenguaje o cualquier otra función.</p>
 					<p>La evaluación neuropsicológica es imprescindible para el diagnóstico de Alzheimer y otras demencias. Es recomendable en caso de sufrir enfermedades neurológicas, ya que la mayoría de ellas produce dificultades cognitivas.</p>
 					<p>A partir de los 60 años aproximadamente aparecen las dificultades de memoria, pero son consideradas normales, asociadas a la edad. El colesterol alto y la hipertensión producen también alteraciones cognitivas. Lo mismo sucede cuando se toman algunos ansiolíticos o antidepresivos por largos períodos de tiempo. ¿Pero cómo distinguir esos problemas de memoria del Alzheimer leve?  ¿Cómo saber si las dificultades de memoria van a seguir empeorando o no? A través de la evaluación neuropsicológica es que se responden estos interrogantes.</p>
 				</div>

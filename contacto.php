@@ -3,7 +3,7 @@
 <html lang="en">
 <?php print htmlHead('María Eugenia Tabernero'); ?>
 	
-	<body>
+	<body id="contacto">
 		<?php print htmlNav(); ?>
 		
 		<div id="menuButton">

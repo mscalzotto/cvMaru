@@ -53,7 +53,7 @@
 		$('div#menuButton a.linkNav').mouseout(function() {
 			if (!$(this).parent().hasClass('active')) {
 				$(this).parent().stop().animate({
-					bottom : "25px"
+					bottom : "10px"
 				}, 300);
 			}
 		});
@@ -111,7 +111,9 @@
 				type: "POST",
 				data: postData,
 				success: function(data, textStatus, jqXHR) {
-					console.log(data);
+					$('form#maruContacto').remove();
+					$('body').append(data);
+					$('div.mailSuccess').insertAfter($('div#menuButton'));
 				},
 				error: function(jqXHR, textStatus, errorThrown) {
 					alert('error: ' + errorThrown);
