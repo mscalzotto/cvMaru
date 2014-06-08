@@ -1,11 +1,12 @@
 <?php
 
-function htmlHead($title = 'María Eugenia Tabernero') {
+function htmlHead($title = 'Consultorio de memoria') {
 	$head  = '<head>';
 	$head .= '<title>'. $title .'</title>';
 	$head .= '<meta charset="utf-8">';
-	$head .= '<meta keywords="psicologa, psicología, psicologia, conicet, memoria, neuropsicología, neuropsicologia">';
-	$head .= '<meta name="viewport" content="width=device-width, initial-scale=1">';
+	$head .= '<meta name="keywords" content="tabernero, eugenia, psicologa, psicologia, conicet, memoria, neuropsicología, consultorio, neurocognitivo">';
+	$head .= '<meta name="description" content="Consultorio de memoria - Maria Eugenia Tabernero">';
+	$head .= '<meta name="author" content="Maria Eugenia Tabernero">';
 	$head .= '<script src="js/jquery-latest.js"></script>';
 	$head .= '<script src="js/main.js"></script>';
 	$head .= '<link rel="stylesheet" type="text/css" href="css/normalize.css">';
@@ -22,7 +23,7 @@ function htmlNav() {
 	$nav .= '<div class="logoMaru">';
 	$nav .= '<p class="logoName">M.Eugenia</p>';
 	$nav .= '<p class="logoSurname">Tabernero</p>';
-	$nav .= '<p class="logoSpecialty">psicoterapeuta</p>';
+	$nav .= '<p class="logoSpecialty">psicóloga</p>';
 	$nav .= '</div>';
 	$nav .= '<div class="iconoMail">';
 	$nav .= '<a href="contacto.php">m</a>';

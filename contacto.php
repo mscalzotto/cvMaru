@@ -3,11 +3,11 @@
 <html lang="en">
 <?php print htmlHead('María Eugenia Tabernero'); ?>
 	
-	<body>
+	<body id="contacto">
 		<?php print htmlNav(); ?>
 		
 		<div id="menuButton">
-			<div class="menuBtn active">
+			<div class="menuBtn">
 				<a href="index.php" class="linkNav">Currículum Vitae</a>
 			</div>
 			<div class="menuBtn">
@@ -18,12 +18,12 @@
 			</div>
 		</div>
 
-		<form id="maruContacto" action="mail.php" method="post">
+		<form id="maruContacto" action="mail.php" method="post" novalidate>
 			<input type="text" name="nombre" placeholder="Nombre" id="campoNombre" />
 			<input type="text" name="apellido" placeholder="Apellido" id="campoApellido" />
 			<input type="email" name="mail" placeholder="Correo electrónico" id="campoMail" />
 			<textarea name="consulta" rows="4" cols="50" placeholder="Ingrese su consulta" id="campoConsulta"></textarea>
-			<input type="button" value="Enviar" />
+			<button type="submit">Enviar</button>
 		</form>
 
 		<div id="footer" class="container">
