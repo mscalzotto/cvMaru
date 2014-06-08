@@ -1,7 +1,7 @@
 <?php include_once 'inc/htmlElements.php' ?>
 <!DOCTYPE html>
 <html lang="en">
-<?php print htmlHead('María Eugenia Tabernero'); ?>
+<?php print htmlHead('Consultorio de memoria'); ?>
 	
 	<body id="neuro">
 		<?php print htmlNav(); ?>

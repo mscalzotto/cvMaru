@@ -139,23 +139,29 @@ body#talleres div.lista {
 
 div.lista.conicet {
 	background: url("img/conicet-logo-c.png") no-repeat left center;
-	background-size: 7%;
+	background-size: 75px;
 }
 
 div.lista.uba {
 	background: url("img/uba-logo-c.png") no-repeat left center;
-	background-size: 7%;
+	background-size: 70px;
 }
 
 div.lista.divan {
 	background: url("img/divan-icon-c1.png") no-repeat left center;
-	background-size: 7%;
+	background-size: 75px;
 }
 
 div.lista.peron {
 	background: url("img/evaPeron-logo-c.png") no-repeat left center;
-	background-size: 7%;
+	background-size: 70px;
 }
+
+body#talleres div.lista,
+body#neuro div.lista {
+	background: transparent;
+}
+
 
 div.lista div.listaTexto p {
 	font-size: 18px;
@@ -260,6 +266,7 @@ div.errorMessage {
 	text-align: center;
 	color: red;
 	font-size: 15px;
+	margin-right: 40px;
 }
 
 div.errorMessage2 {
@@ -443,28 +450,28 @@ form#maruContacto textarea:-ms-input-placeholder { /* Internet Explorer 10+ */
 	}
 
 	div.lista.conicet {
-		background: url("img/conicet-logo.png") no-repeat left center;
+		background: url("img/conicet-logo-c.png") no-repeat left center;
 		background-size: 9%;
 	}
 
 	div.lista.uba {
-		background: url("img/uba-logo.png") no-repeat left center;
+		background: url("img/uba-logo-c.png") no-repeat left center;
 		background-size: 9%;
 	}
 
-	body#neuro div.lista.uba,
-	body#talleres div.lista.uba,
-	body#talleres div.lista.conicet {
+	body#neuro div.lista,
+	body#talleres div.lista,
+	body#talleres div.lista {
 		background: transparent;
 	}
 
 	div.lista.divan {
-		background: url("img/divan-icon.png") no-repeat left center;
+		background: url("img/divan-icon-c.png") no-repeat left center;
 		background-size: 9%;
 	}
 
 	div.lista.peron {
-		background: url("img/evaPeron-logo.png") no-repeat left center;
+		background: url("img/evaPeron-logo-c.png") no-repeat left center;
 		background-size: 8%;
 	}
 
