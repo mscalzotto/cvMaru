@@ -131,23 +131,23 @@ div.lista {
 }
 
 div.lista.conicet {
-	background: url("img/conicet-logo.png") no-repeat left center;
+	background: url("img/conicet-logo-c.png") no-repeat left center;
 	background-size: 7%;
 }
 
 div.lista.uba {
-	background: url("img/uba-logo.png") no-repeat left center;
+	background: url("img/uba-logo-c.png") no-repeat left center;
 	background-size: 7%;
 }
 
 div.lista.divan {
-	background: url("img/divan-icon.png") no-repeat left center;
+	background: url("img/divan-icon-c1.png") no-repeat left center;
 	background-size: 7%;
 }
 
 div.lista.peron {
-	background: url("img/evaPeron-logo.png") no-repeat left center;
-	background-size: 6%;
+	background: url("img/evaPeron-logo-c.png") no-repeat left center;
+	background-size: 7%;
 }
 
 div.lista div.listaTexto p {
