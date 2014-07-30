@@ -12,6 +12,7 @@
 			
 			if (isFormValid) {
 				sendAjaxEmail();
+				$('div.contacto-texto').hide();
 			}
 			else {
 				return false;

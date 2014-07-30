@@ -242,8 +242,7 @@ div#footer p {
 /* Form */
 form#maruContacto {
 	max-width: 450px;
-	margin: 0 auto;
-	margin-top: 50px;
+	margin: 50px auto 45px;
 }
 
 form#maruContacto input,
@@ -255,6 +254,13 @@ form#maruContacto textarea {
 	margin-bottom: 5px;
 	padding: 5px 15px;
 	width: 84%;
+}
+
+div.contacto-texto {
+	margin: 30px 40px 25px 0;
+	text-align: center;
+	line-height: 2px;
+	font-size: 16px;
 }
 
 /* error */
